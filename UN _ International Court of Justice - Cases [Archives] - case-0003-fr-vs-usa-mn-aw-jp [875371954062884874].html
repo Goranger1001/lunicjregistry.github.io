@@ -1,0 +1,1201 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>UN | International Court of Justice - case-0003-fr-vs-usa-mn-aw-jp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <style>
+        @font-face {
+            font-family: Whitney;
+            src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-300.woff);
+            font-weight: 300;
+        }
+
+        @font-face {
+            font-family: Whitney;
+            src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-400.woff);
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: Whitney;
+            src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-500.woff);
+            font-weight: 500;
+        }
+
+        @font-face {
+            font-family: Whitney;
+            src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-600.woff);
+            font-weight: 600;
+        }
+
+        @font-face {
+            font-family: Whitney;
+            src: url(https://cdn.jsdelivr.net/gh/Tyrrrz/DiscordFonts@master/whitney-700.woff);
+            font-weight: 700;
+        }
+
+        body {
+            background-color: #36393e;
+            color: #dcddde;
+            font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        a {
+            color: #00aff4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            object-fit: contain;
+        }
+
+        .markdown {
+            max-width: 100%;
+            line-height: 1.3;
+            overflow-wrap: break-word;
+        }
+
+        .preserve-whitespace {
+            white-space: pre-wrap;
+        }
+
+        .spoiler-text {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+        }
+
+        .spoiler-text--hidden {
+            cursor: pointer;
+            background-color: #202225;
+            color: rgba(0, 0, 0, 0);
+        }
+
+        .spoiler-text--hidden:hover {
+            background-color: rgba(32, 34, 37, 0.8);
+        }
+
+        .spoiler-text--hidden::selection {
+            color: rgba(0, 0, 0, 0);
+        }
+
+        .quote {
+            display: flex;
+            margin: 0.05em 0;
+        }
+
+        .quote::before {
+            content: "";
+            margin-right: 0.5em;
+            border: 2px solid #4f545c;
+            border-radius: 3px;
+        }
+
+        .pre {
+            background-color: #2f3136;
+            font-family: "Consolas", "Courier New", Courier, monospace;
+        }
+
+        .pre--multiline {
+            margin-top: 0.25em;
+            padding: 0.5em;
+            border: 2px solid #282b30;
+            border-radius: 5px;
+            color: #b9bbbe;
+        }
+
+        .pre--multiline.hljs {
+            background-color: #2f3136;
+            color: #b9bbbe;
+        }
+
+        .pre--inline {
+            padding: 2px;
+            border-radius: 3px;
+            font-size: 0.85em;
+        }
+
+        .mention {
+            border-radius: 3px;
+            padding: 0 2px;
+            color: #dee0fc;
+            background-color: rgba(88, 101, 242, .3);
+            font-weight: 500;
+        }
+
+        .mention:hover {
+            background-color: #5865f2;
+            color: #ffffff
+        }
+
+        .timestamp {
+            border-radius: 3px;
+            padding: 0 2px;
+            background-color: rgba(255, 255, 255, 0.06);
+        }
+
+        .emoji {
+            width: 1.325em;
+            height: 1.325em;
+            margin: 0 0.06em;
+            vertical-align: -0.4em;
+        }
+
+        .emoji--small {
+            width: 1em;
+            height: 1em;
+        }
+
+        .emoji--large {
+            width: 2.8em;
+            height: 2.8em;
+        }
+
+        .preamble {
+            display: grid;
+            margin: 0 0.3em 0.6em 0.3em;
+            max-width: 100%;
+            grid-template-columns: auto 1fr;
+        }
+
+        .preamble__guild-icon-container {
+            grid-column: 1;
+        }
+
+        .preamble__guild-icon {
+            max-width: 88px;
+            max-height: 88px;
+        }
+
+        .preamble__entries-container {
+            grid-column: 2;
+            margin-left: 0.6em;
+        }
+
+        .preamble__entry {
+            font-size: 1.4em;
+            color: #ffffff;
+        }
+
+        .preamble__entry--small {
+            font-size: 1em;
+        }
+
+        .chatlog {
+            max-width: 100%;
+        }
+
+        .chatlog__message-group {
+            display: grid;
+            margin: 0 0.6em;
+            padding: 0.9em 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            grid-template-columns: auto 1fr;
+        }
+
+        .chatlog__reference-symbol {
+            grid-column: 1;
+            margin: 8px 4px 4px 18px;
+            border-left: 2px solid #4f545c;
+            border-top: 2px solid #4f545c;
+            border-radius: 8px 0 0 0;
+        }
+
+        .chatlog__reference {
+            display: flex;
+            grid-column: 2;
+            margin-bottom: 0.25em;
+            font-size: 0.875em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            align-items: center;
+            color: #b5b6b8;
+        }
+
+        .chatlog__reference-avatar {
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            margin-right: 0.25em;
+        }
+
+        .chatlog__reference-name {
+            margin-right: 0.3em;
+            font-weight: 600;
+        }
+
+        .chatlog__reference-content {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .chatlog__reference-content a:hover {
+            text-decoration: none;
+        }
+
+        .chatlog__reference-link {
+            cursor: pointer;
+            color: #b5b6b8;
+        }
+
+        .chatlog__reference-link * {
+            display: inline;
+            pointer-events: none;
+        }
+
+        .chatlog__reference-link:hover {
+            color: #ffffff;
+        }
+
+        .chatlog__reference-link:hover *:not(.spoiler-text) {
+            color: #ffffff;
+        }
+
+        .chatlog__reference-edited-timestamp {
+            margin-left: 0.25em;
+            font-size: 0.8em;
+            unicode-bidi: bidi-override;
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+        .chatlog__author-avatar-container {
+            grid-column: 1;
+            width: 40px;
+            height: 40px;
+            margin-right: 16px;
+        }
+
+        .chatlog__author-avatar {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+
+        .chatlog__messages {
+            grid-column: 2;
+            min-width: 50%;
+            direction: ltr;
+        }
+
+        .chatlog__author-name {
+            font-weight: 500;
+            color: #ffffff;
+        }
+
+        .chatlog__timestamp {
+            margin-left: 0.3em;
+            font-size: 0.75em;
+            direction: ltr;
+            unicode-bidi: bidi-override;
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+        .chatlog__message {
+            padding: 0.1em 0.3em;
+            margin: 0 -0.3em;
+            background-color: transparent;
+            transition: background-color 1s ease;
+        }
+
+        .chatlog__message--highlighted {
+            background-color: rgba(114, 137, 218, 0.2);
+        }
+
+        .chatlog__message--pinned {
+            background-color: rgba(249, 168, 37, 0.05);
+        }
+
+        .chatlog__content {
+            font-size: 0.95em;
+            word-wrap: break-word;
+        }
+
+        .chatlog__edited-timestamp {
+            margin-left: 0.15em;
+            font-size: 0.8em;
+        }
+
+        .chatlog__attachment {
+            display: inline-block;
+            position: relative;
+            margin-top: 0.3em;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .chatlog__attachment--hidden {
+            cursor: pointer;
+            box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        .chatlog__attachment--hidden * {
+            pointer-events: none;
+        }
+
+        .chatlog__attachment-spoiler-caption {
+            display: none;
+            z-index: 999;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 0.4em 0.8em;
+            background-color: rgba(0, 0, 0, 0.9);
+            border-radius: 20px;
+            color: #dcddde;
+            font-size: 0.9em;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        .chatlog__attachment--hidden .chatlog__attachment-spoiler-caption {
+            display: block;
+        }
+
+        .chatlog__attachment--hidden:hover .chatlog__attachment-spoiler-caption {
+            color: #fff;
+        }
+
+        .chatlog__attachment-media {
+            vertical-align: top;
+            max-width: 45vw;
+            max-height: 500px;
+            border-radius: 3px;
+        }
+
+        .chatlog__attachment--hidden .chatlog__attachment-media {
+            filter: blur(44px);
+        }
+
+        .chatlog__attachment-generic {
+            width: 100%;
+            max-width: 520px;
+            height: 40px;
+            padding: 10px;
+            background-color: #2f3136;
+            border: 1px solid #292b2f;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .chatlog__attachment--hidden .chatlog__attachment-generic {
+            filter: blur(44px);
+        }
+
+        .chatlog__attachment-generic-icon {
+            float: left;
+            width: 30px;
+            height: 100%;
+            margin-right: 10px;
+        }
+
+        .chatlog__attachment-generic-size {
+            color: #72767d;
+            font-size: 12px;
+        }
+
+        .chatlog__attachment-generic-name {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .chatlog__edited-timestamp {
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+        .chatlog__embed {
+            display: flex;
+            margin-top: 0.3em;
+            max-width: 520px;
+        }
+
+        .chatlog__embed-color-pill {
+            flex-shrink: 0;
+            width: 0.25em;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+
+        .chatlog__embed-color-pill--default {
+            background-color: #202225;
+        }
+
+        .chatlog__embed-content-container {
+            display: flex;
+            flex-direction: column;
+            padding: 0.5em 0.6em;
+            background-color: rgba(46, 48, 54, 0.3);
+            border: 1px solid rgba(46, 48, 54, 0.6);
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+
+        .chatlog__embed-content {
+            display: flex;
+            width: 100%;
+        }
+
+        .chatlog__embed-text {
+            flex: 1;
+        }
+
+        .chatlog__embed-author {
+            display: flex;
+            margin-bottom: 0.3em;
+            align-items: center;
+        }
+
+        .chatlog__embed-author-icon {
+            margin-right: 0.5em;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .chatlog__embed-author-name {
+            font-size: 0.875em;
+            font-weight: 600;
+            direction: ltr;
+            unicode-bidi: bidi-override;
+            color: #ffffff
+        }
+
+        .chatlog__embed-author-name-link {
+            color: #ffffff;
+        }
+
+        .chatlog__embed-title {
+            margin-bottom: 0.2em;
+            font-size: 0.875em;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .chatlog__embed-description {
+            font-weight: 500;
+            font-size: 0.85em;
+            color: #dcddde;
+        }
+
+        .chatlog__embed-fields {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0 0.5em;
+        }
+
+        .chatlog__embed-field {
+            flex: 0;
+            min-width: 100%;
+            max-width: 506px;
+            padding-top: 0.6em;
+            font-size: 0.875em;
+        }
+
+        .chatlog__embed-field--inline {
+            flex: 1;
+            flex-basis: auto;
+            min-width: 150px;
+        }
+
+        .chatlog__embed-field-name {
+            margin-bottom: 0.2em;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .chatlog__embed-field-value {
+            font-weight: 500;
+            color: #dcddde;
+        }
+
+        .chatlog__embed-thumbnail {
+            flex: 0;
+            margin-left: 1.2em;
+            max-width: 80px;
+            max-height: 80px;
+            border-radius: 3px;
+        }
+
+        .chatlog__embed-image-container {
+            margin-top: 0.6em;
+        }
+
+        .chatlog__embed-image {
+            max-width: 500px;
+            max-height: 400px;
+            border-radius: 3px;
+        }
+
+        .chatlog__embed-footer {
+            margin-top: 0.6em;
+            color: #dcddde;
+        }
+
+        .chatlog__embed-footer-icon {
+            margin-right: 0.2em;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+
+        .chatlog__embed-footer-text {
+            vertical-align: middle;
+            font-size: 0.75em;
+            font-weight: 500;
+        }
+
+        .chatlog__embed-plainimage {
+            vertical-align: top;
+            max-width: 45vw;
+            max-height: 500px;
+            border-radius: 3px;
+        }
+
+        .chatlog__embed-spotify {
+            border: 0;
+        }
+
+        .chatlog__embed-youtube-container {
+            margin-top: 0.6em;
+        }
+
+        .chatlog__embed-youtube {
+            border: 0;
+            border-radius: 3px;
+        }
+
+        .chatlog__reactions {
+            display: flex;
+        }
+
+        .chatlog__reaction {
+            display: flex;
+            align-items: center;
+            margin: 0.35em 0.1em 0.1em 0;
+            padding: .125rem .375rem;
+            background-color: #2f3136;
+            border-radius: 8px;
+            border-color: transparent;
+            border-width: 1px;
+            border-style: solid;
+        }
+
+        .chatlog__reaction:hover {
+            border-color: hsla(0,0%,100%,.2);
+            border-width: 1px;
+            border-style: solid;
+            background-color: transparent;
+        }
+
+        .chatlog__reaction-count {
+            min-width: 9px;
+            margin-left: 0.35em;
+            font-size: 0.875em;
+            color: #b9bbbe;
+        }
+
+        .chatlog__reaction:hover .chatlog__reaction-count {
+            color: #dcddde;
+        }
+
+        .chatlog__bot-tag {
+            position: relative;
+            top: -.1em;
+            margin-left: 0.3em;
+            padding: 0.05em 0.3em;
+            border-radius: 3px;
+            line-height: 1.3;
+            background-color: #5865F2;
+            color: #ffffff;
+            font-size: 0.625em;
+            font-weight: 500;
+        }
+
+        .postamble {
+            margin: 1.4em 0.3em 0.6em 0.3em;
+            padding: 1em;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .postamble__entry {
+            color: #ffffff;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+
+        function showSpoiler(event, element) {
+            if (element && element.classList.contains('spoiler-text--hidden')) {
+                event.preventDefault();
+                element.classList.remove('spoiler-text--hidden');
+            }
+            if (element && element.classList.contains('chatlog__attachment--hidden')) {
+                event.preventDefault();
+                element.classList.remove('chatlog__attachment--hidden');
+            }
+        }
+    </script>
+
+    <svg style="display: none">
+        <symbol id="icon-attachment" viewBox="0 0 720 960">
+            <path fill="#f4f5fb" d="M50,935a25,25,0,0,1-25-25V50A25,25,0,0,1,50,25H519.6L695,201.32V910a25,25,0,0,1-25,25Z" />
+            <path fill="#7789c4" d="M509.21,50,670,211.63V910H50V50H509.21M530,0H50A50,50,0,0,0,0,50V910a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50h0V191Z" />
+            <path fill="#f4f5fb" d="M530,215a25,25,0,0,1-25-25V50a25,25,0,0,1,16.23-23.41L693.41,198.77A25,25,0,0,1,670,215Z" />
+            <path fill="#7789c4" d="M530,70.71,649.29,190H530V70.71M530,0a50,50,0,0,0-50,50V190a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50Z" />
+        </symbol>
+    </svg>
+</head>
+<body>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/863856628301037608/03567612468a1d85b6dfeb1c492f334d.png" alt="Guild icon" loading="lazy">
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">UN | International Court of Justice</div>
+        <div class="preamble__entry">Cases [Archives] / case-0003-fr-vs-usa-mn-aw-jp</div>
+
+
+    </div>
+</div>
+
+<div class="chatlog">
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/300438848901480459/2603a7ab2d490ced4354ac724a2ca2f1.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="gregggg#4020" data-user-id="300438848901480459" style="color: rgb(84,110,122)">cool_ie</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 03:44 PM</span>
+
+            <div class="chatlog__message " data-message-id="875374140431933440" id="message-875374140431933440" title="Message sent: 12-Aug-21 03:44 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace"><strong><img loading="lazy" class="emoji " alt="🇫🇷" title="flag_fr" src="https://twemoji.maxcdn.com/2/svg/1f1eb-1f1f7.svg"> REPUBLIC OF FRANCE  VS <img loading="lazy" class="emoji " alt="🇺🇸" title="flag_us" src="https://twemoji.maxcdn.com/2/svg/1f1fa-1f1f8.svg"> UNITED STATES OF AMERICA, <img loading="lazy" class="emoji " alt="🇲🇳" title="flag_mn" src="https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f3.svg"> BOGD KHANATE OF MONGOLIA, <img loading="lazy" class="emoji " alt="🇦🇼" title="flag_aw" src="https://twemoji.maxcdn.com/2/svg/1f1e6-1f1fc.svg"> THE STATE OF ARUBA, <img loading="lazy" class="emoji " alt="🇯🇵" title="flag_jp" src="https://twemoji.maxcdn.com/2/svg/1f1ef-1f1f5.svg"> STATE OF JAPAN</strong>
+<em>Case 0003</em>
+
+Charge Against the Defendants: <u>Infringing upon a sovereign nations right to govern as outlined in the Universal Declaration of Human Rights</u>
+
+Violations by the USA: 
+-Usage of Political Prison as outlined in the Universal Declaration of Human Rights
+-Violation of the right to believe as outlined in the Universal Declaration of Human Rights
+-Violation of the democratic Process as outlined in the Universal Declaration of Human Rights
+
+Violations by Mongolia: 
+-Usage of Political Prison as outlined in the Universal Declaration of Human Rights
+-Violation of the right to believe as outlined in the Universal Declaration of Human Rights
+-Violation of the democratic Process as outlined in the Universal Declaration of Human Rights
+
+Violations by Aruba: 
+-Usage of Political Prison as outlined in the Universal Declaration of Human Rights
+-Violation of the right to believe as outlined in the Universal Declaration of Human Rights
+-Violation of the democratic Process as outlined in the Universal Declaration of Human Rights
+
+Violations by Japan: 
+-Usage of Political Prison as outlined in the Universal Declaration of Human Rights
+-Violation of the right to believe as outlined in the Universal Declaration of Human Rights
+-Violation of the democratic Process as outlined in the Universal Declaration of Human Rights
+
+President Presiding: <span class="mention" title="gregggg#4020">@cool_ie</span> 
+Other Presiding Justices: <span class="mention" title="hi im sammy#3777">@hi im sammy</span>, <span class="mention" title="morrie#5277">@morrie</span>, <span class="mention" title="American#9347">@American</span>  
+
+<u>Legal Agents for the France</u>
+<div class="quote"><span class="mention" title="Unknown">@Unknown</span>, <span class="mention" title="indy#7675">@Iilaea - Morrocan/Peru Counsel</span> 
+</div>
+<u>Legal Agents for Mongolia</u>
+<div class="quote"><span class="mention" title="ebola#7633">@[CHIEF] Goranger</span>
+</div>
+<u>Legal Agents for the United States</u>
+<div class="quote"><span class="mention" title="jay!#8945">@jay - USA</span>
+</div>
+<u>Legal Agents for Japan</u>
+<div class="quote"><span class="mention" title="Unknown">@Unknown</span>, <span class="mention" title="HSJ#7240">@HSJ</span>
+</div>
+<u>Legal Agents for Aruba</u>
+<div class="quote"><span class="mention" title="Churchy#1520">@Churchy</span></div></span>
+
+                                <span class="chatlog__edited-timestamp" title="12-Aug-21 08:19 PM">(edited)</span>
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/493180666809286672/a_a561291775a415dc086eb56da54f3104.gif?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="indy#7675" data-user-id="493180666809286672" style="color: rgb(32,102,148)">Iilaea - Morrocan/Peru Counsel</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:20 PM</span>
+
+            <div class="chatlog__message " data-message-id="875443770559189003" id="message-875443770559189003" title="Message sent: 12-Aug-21 08:20 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">A pre-trial motion from the Republic of France, Your Honor. 
+
+The Republic of France will be dropping charges against all of the above defendants due to the satisfactory meeting of terms on behalf of international peace.
+
+Due to the issuents within the Second York Dictate(<a href="https://docs.google.com/document/d/1_vpxTFYe08HHtup_75m7M7XDSMP5ghcFar0SfMlT33w/edit)">https://docs.google.com/document/d/1_vpxTFYe08HHtup_75m7M7XDSMP5ghcFar0SfMlT33w/edit)</a> The Republic is satisfied with the results of such, and no longer sees violation of international law as described in Sections 9, and 15 of the UNCR.(<a href="https://docs.google.com/document/d/1rm0nFPjU6P3o4iuthaNz5aK6oMeyUrta75hp7t0WFqo/edit)">https://docs.google.com/document/d/1rm0nFPjU6P3o4iuthaNz5aK6oMeyUrta75hp7t0WFqo/edit)</a> 
+
+We thank the International Courts for its swift response to the case.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="875443854910828595" id="message-875443854910828595" title="Message sent: 12-Aug-21 08:21 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">*Trial</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="875444178136465468" id="message-875444178136465468" title="Message sent: 12-Aug-21 08:22 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">In short, for official purposes The Republic of France will be dropping charges against the following nations:
+United States of America
+Bogd Khanate of Mongolia
+The State of Aruba
+State of Japan</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/300438848901480459/2603a7ab2d490ced4354ac724a2ca2f1.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="gregggg#4020" data-user-id="300438848901480459" style="color: rgb(84,110,122)">cool_ie</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:23 PM</span>
+
+            <div class="chatlog__message " data-message-id="875444427634651216" id="message-875444427634651216" title="Message sent: 12-Aug-21 08:23 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">The Court recognizes the motion presented by the Republic of France.
+
+<strong>The Court is adjourned pending an order of the Court</strong> in response to the motion of the Republic of France.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/493180666809286672/a_a561291775a415dc086eb56da54f3104.gif?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="indy#7675" data-user-id="493180666809286672" style="color: rgb(32,102,148)">Iilaea - Morrocan/Peru Counsel</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:23 PM</span>
+
+            <div class="chatlog__message " data-message-id="875444512707719188" id="message-875444512707719188" title="Message sent: 12-Aug-21 08:23 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Thank you, your honor.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/735697788448407583/9ce4b7e827b319162765b820fab8bc19.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="morrie#5277" data-user-id="735697788448407583" style="">morrie</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:24 PM</span>
+
+            <div class="chatlog__message " data-message-id="875444772666503188" id="message-875444772666503188" title="Message sent: 12-Aug-21 08:24 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">I wish to remind the parties and enter into the record that I have noted that the correct form of address for an International Court Justice is “Your Excellency” and not “Your Honour”.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/194074594678669312/0e6e60ee0cb404a96a2eeaf2a0fe6eb5.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="professional#9230" data-user-id="194074594678669312" style="">professional</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:25 PM</span>
+
+            <div class="chatlog__message " data-message-id="875444832766668823" id="message-875444832766668823" title="Message sent: 12-Aug-21 08:25 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Your Majesty King Morrie</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/735697788448407583/9ce4b7e827b319162765b820fab8bc19.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="morrie#5277" data-user-id="735697788448407583" style="">morrie</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:25 PM</span>
+
+            <div class="chatlog__message " data-message-id="875444846683385926" id="message-875444846683385926" title="Message sent: 12-Aug-21 08:25 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Fanks</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/194074594678669312/0e6e60ee0cb404a96a2eeaf2a0fe6eb5.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="professional#9230" data-user-id="194074594678669312" style="">professional</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:25 PM</span>
+
+            <div class="chatlog__message " data-message-id="875444860243550279" id="message-875444860243550279" title="Message sent: 12-Aug-21 08:25 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">No Problem.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/300438848901480459/2603a7ab2d490ced4354ac724a2ca2f1.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="gregggg#4020" data-user-id="300438848901480459" style="color: rgb(84,110,122)">cool_ie</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:26 PM</span>
+
+            <div class="chatlog__message " data-message-id="875445074643795979" id="message-875445074643795979" title="Message sent: 12-Aug-21 08:26 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Please Mr Secretary General and Your Majesty King of Kings Morrie, take it to DMs.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+        <div class="chatlog__reference-symbol"></div>
+        <div class="chatlog__reference">
+                <img class="chatlog__reference-avatar" src="https://cdn.discordapp.com/avatars/300438848901480459/2603a7ab2d490ced4354ac724a2ca2f1.png?size=128" alt="Avatar" loading="lazy">
+                <span class="chatlog__reference-name" title="gregggg#4020" style="color: rgb(84,110,122)">cool_ie</span>
+                <div class="chatlog__reference-content">
+                    <span class="chatlog__reference-link" onclick="scrollToMessage(event, &#39;875445074643795979&#39;)">
+Please Mr Secretary General and Your Majesty King of Kings Morrie, take it to DMs.                    </span>
+
+                </div>
+        </div>
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/194074594678669312/0e6e60ee0cb404a96a2eeaf2a0fe6eb5.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="professional#9230" data-user-id="194074594678669312" style="">professional</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:26 PM</span>
+
+            <div class="chatlog__message " data-message-id="875445112203804732" id="message-875445112203804732" title="Message sent: 12-Aug-21 08:26 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Yes, My Honor.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="875445181296549929" id="message-875445181296549929" title="Message sent: 12-Aug-21 08:26 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">S&#39;cuse Me</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/735697788448407583/9ce4b7e827b319162765b820fab8bc19.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="morrie#5277" data-user-id="735697788448407583" style="">morrie</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 08:31 PM</span>
+
+            <div class="chatlog__message " data-message-id="875446506314944532" id="message-875446506314944532" title="Message sent: 12-Aug-21 08:31 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Rite Very Well Etc</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/300438848901480459/2603a7ab2d490ced4354ac724a2ca2f1.png?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="gregggg#4020" data-user-id="300438848901480459" style="color: rgb(84,110,122)">cool_ie</span>
+
+
+        <span class="chatlog__timestamp">12-Aug-21 09:18 PM</span>
+
+            <div class="chatlog__message " data-message-id="875458189821366293" id="message-875458189821366293" title="Message sent: 12-Aug-21 09:18 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Under order of the court we hearby dismiss case 0003.
+<a href="https://drive.google.com/file/d/1Sur85me2BcHbJ2XHYAnooxSjUmqCAl5x/view?usp=sharing">https://drive.google.com/file/d/1Sur85me2BcHbJ2XHYAnooxSjUmqCAl5x/view?usp=sharing</a></span>
+
+                        </div>
+                    </div>
+
+
+                        <div class="chatlog__embed">
+                                <div class="chatlog__embed-color-pill chatlog__embed-color-pill--default"></div>
+
+                            <div class="chatlog__embed-content-container">
+                                <div class="chatlog__embed-content">
+                                    <div class="chatlog__embed-text">
+
+                                            <div class="chatlog__embed-title">
+                                                    <a class="chatlog__embed-title-link" href="https://drive.google.com/file/d/1Sur85me2BcHbJ2XHYAnooxSjUmqCAl5x/view?usp=sharing">
+                                                        <div class="markdown preserve-whitespace">ICJ FR v. MN, US, AW, JP Order 12 Aug 21.pdf</div>
+                                                    </a>
+                                            </div>
+
+
+                                    </div>
+
+                                        <div class="chatlog__embed-thumbnail-container">
+                                            <a class="chatlog__embed-thumbnail-link" href="https://images-ext-2.discordapp.net/external/0189RfsdAzOgIvkqBbG3RPdAUvW8ZuMGy5SlGeNmkDI/https/lh3.googleusercontent.com/shrInmsWXtLaXTgxFR60qqklPu1lQQdvhYb06sfEoi5mf6hgUBKdLpbI4ZccdHMUH8I%3Dw1200-h630-p">
+                                                <img class="chatlog__embed-thumbnail" src="https://images-ext-2.discordapp.net/external/0189RfsdAzOgIvkqBbG3RPdAUvW8ZuMGy5SlGeNmkDI/https/lh3.googleusercontent.com/shrInmsWXtLaXTgxFR60qqklPu1lQQdvhYb06sfEoi5mf6hgUBKdLpbI4ZccdHMUH8I%3Dw1200-h630-p" alt="Thumbnail" loading="lazy">
+                                            </a>
+                                        </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+            </div>
+    </div>
+</div>
+
+
+
+<div class="chatlog__message-group">
+
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/330457126621282348/a_e7959d37599819ded74458f78ec91991.gif?size=128" alt="Avatar" loading="lazy">
+    </div>
+
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Purpose#6000" data-user-id="330457126621282348" style="color: rgb(194,124,14)">Purposei</span>
+
+
+        <span class="chatlog__timestamp">26-Dec-21 10:58 PM</span>
+
+            <div class="chatlog__message " data-message-id="924783290601340969" id="message-924783290601340969" title="Message sent: 26-Dec-21 10:58 PM">
+                    <div class="chatlog__content">
+                        <div class="markdown">
+                            <span class="preserve-whitespace">Case archived as of; 8/12/2021.</span>
+
+                        </div>
+                    </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 16 message(s)</div>
+</div>
+
+</body>
+
+</html>
