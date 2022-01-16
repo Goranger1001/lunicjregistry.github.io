@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+  background-color:#B2EBF2;
+}
+#title {
+  text-align:center;
+  font-family: Raleway, sans-serif;
+}
+#navbar {
+  width: 1030px;
+  border: 15px;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+#main {
+  background-color:#00BCD4;
+  width: 900px;
+  border: 15px double #00BCD4;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top-style:solid;
+  border-bottom-style:solid;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  padding: 14px 77.4px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #DD2C00;
+}
